@@ -8,9 +8,10 @@
   <meta name="description" content="Michael Budnick">
   <meta name="author" content="Michael Budnick">
 
-  <link rel="stylesheet" href="css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/clear.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 
   <!-- <script src="js/scripts.js"></script> -->
   <!--[if lt IE 9]>
@@ -23,26 +24,37 @@
   <h1 class="">Michael Budnick</h1>
 
   <ul id="main-list">
-    <li class="main-item">About Me</li>
-    <li class="main-item">Code
-      <ul class="inner-list">
-        <li class="inner-item">
-          <ul class="featured-list">
-            <li class="featured-item"><a href="http://www.rssblur.com" class="featured-link" target="_blank">RSS Blur</a></li>
-            <li class="featured-item"><a href="https://github.com/Coroecram/bountyhunter" class="featured-link" target="_blank">Bounty Hunter</a></li>
-            <li class="featured-item"><a href="http://www.pomodoro.top" class="featured-link" target="_blank">Pomo D'Oro</a></li>
-          </ul>
+    <li class="main-item">
+      <input type="checkbox" id="about-me" class="main-check"/>
+      <label class="main-label" for="about-me">ABOUT ME
+        <p class="inner-list">HERE IS SOME TEXT THAT SHOULD SHOW UP</p>
+      </label>
+  </li>
+    <li class="main-item">
+      <input type="checkbox" id="my-code" class="main-check"/>
+      <label class="main-label" for="my-code">CODE
+        <ul class="inner-list">
+          <li class="inner-item">
+            <ul class="featured-list">
+              <li class="featured-item"><a href="http://www.rssblur.com" class="featured-link" target="_blank">RSS Blur</a></li>
+              <li class="featured-item"><a href="https://github.com/Coroecram/bountyhunter" class="featured-link" target="_blank">Bounty Hunter</a></li>
+              <li class="featured-item"><a href="http://www.pomodoro.top" class="featured-link" target="_blank">Pomo D'Oro</a></li>
+            </ul>
+          </label>
         </li>
         <li class="inner-item">Other Code Applications</li>
         <li class="inner-item"><a href="https://github.com/Coroecram/" class="inner-link" target="_blank">Github</a></li>
       </ul>
     </li>
-    <li class="main-item">Other Projects
-    <ul class="inner-list">
-      <li class="inner-item">Electronics</li>
-      <li class="inner-item">3D Modeling</li>
-      <li class="inner-item">Art</li>
-    </ul>
+    <li class="main-item">
+      <input type="checkbox" id="other-projects" class="main-check"/>
+      <label class="main-label" for="other-projects">OTHER PROJECTS
+        <ul class="inner-list">
+          <li class="inner-item">Electronics</li>
+          <li class="inner-item">3D Modeling</li>
+          <li class="inner-item">Art</li>
+        </ul>
+      </label>
     </li>
     <li class="main-item"><a href="https://medium.com/@michaeldbudnick" class="main-link" target="_blank">Blog</a></li>
     <li class="main-item"><a href="mailto:michaeldbudnick@gmail.com">Contact</a></li>
