@@ -1,13 +1,13 @@
-#about-me:checked + label > .inner-list {
-  display: block;
+#about-me:checked ~ .about_il {
+  display: list-item;
 }
 
-#my-code:checked + label > .inner-list {
-  display: block;
+#my-code:checked ~ .code_il {
+  display: list-item;
 }
 
-#other-projects:checked + label > .inner-list {
-  display: block;
+#other-projects:checked ~ .projects_il {
+  display: list-item;
 }
 
 .main-check {
@@ -16,4 +16,14 @@
 
 .inner-list {
   display: none;
+}
+
+.inner-item {
+  font-size: 24px;
+  list-style: disc inside;
+  margin-left: 10px;
+}
+
+.btn {
+  font-size: 30px;
 }
