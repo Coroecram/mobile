@@ -1,3 +1,9 @@
+#title-img {
+  width: 50px;
+  float: left;
+  margin-left: 10px;
+}
+
 .main-check:checked ~ .main-label {
   background-color: #41e009;
 }
@@ -12,6 +18,14 @@
 
 #other-projects:checked ~ .projects_il {
   display: list-item;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+#main-list {
+  margin-left: 20px;
 }
 
 .main-check {
