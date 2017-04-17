@@ -1,3 +1,7 @@
+.main-check:checked ~ .main-label {
+  background-color: #41e009;
+}
+
 #about-me:checked ~ .about_il {
   display: list-item;
 }
